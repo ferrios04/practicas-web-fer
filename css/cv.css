@@ -1,0 +1,106 @@
+/*documento css*/
+
+* {margin-left: 20px;
+   margin-bottom: 10px;
+   margin-right: 20px;  }
+
+h1 {font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    color: white;}
+
+h2 {font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 0px;
+    color: #000091;}
+
+h3 {font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0px;
+    font-size: 20px;
+    color: white;}
+
+h4 {font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #000091;
+    margin-bottom: 1%;}
+
+p { font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 25px;}
+
+
+li {font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;}
+
+ul {margin-top: 7px;}
+
+.cabecera {background-color: #000091;
+           padding-top: 90px;
+           padding-bottom: 90px;
+           margin-bottom: 40px;}
+
+.jkcv {width: 250px;
+       float: left;
+       margin-top: -75px;
+       margin-right: 40px;
+       margin-left: 22.5%; }
+
+.descr {margin-right: 0%;}
+
+.container {width: 100%;
+            display: flex;}
+
+.containersk {width: 100%;
+              display: flexbox;
+              margin-left: 20%;
+              margin-right: 0%;}
+
+.containecont {width: 100%;
+               display: flexbox;
+               margin-right: 20%;
+               margin-left: 3%; }
+
+.phone, .mail {width: 17px;
+               float: left;
+               margin: 0%;
+               margin-top: 1px;}   
+
+.instag {width: 17px;
+         float: left;
+         margin-right: -3px;
+         margin-top: 1px;}
+
+.xx {width: 17px;
+    float: left;
+    margin-right: -10px;
+    margin-top: 1px;}
+
+.face {width: 17px;
+       float: left;
+       margin-right: -3px;
+       margin-top: 1px;}
+
+.footer {font-family: "Syne", sans-serif;
+         font-optical-sizing: auto;
+         font-weight: 400;
+         font-style: normal;
+         font-size: 14px;}

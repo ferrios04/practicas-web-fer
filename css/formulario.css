@@ -1,0 +1,69 @@
+/*documento css*/
+
+* {margin: 0px;
+   padding: 0px;}
+
+/*tipografía*/
+
+@font-face {font-family: 'alagardmedium';
+            src: url(/font/alagard-webfont.woff2) format('woff2'),
+            url(/font/alagard-webfont.woff) format('woff');
+            font-weight: normal;
+            font-style: normal;}
+
+body {font-family: 'alagardmedium';}
+
+h2 {text-align: center;
+    width: 250px;
+    margin: 15px auto 20px auto;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 100px;
+    text-transform: lowercase;}  
+
+h1 {padding-bottom: 15px;
+    font-size: 40px;}
+
+/*maquetacion o layout*/
+
+.cabecera {width: 100%;
+           padding: 20px 0px;}
+
+.container {width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0px 15px;
+            box-sizing: border-box;}
+
+.item {width: 100%;
+       margin-bottom: 16px;}
+
+.btn:hover {background: fuchsia;}
+
+/*MEDIA QUERIES codigos para pantallas de 600px en adelante Movile First*/
+/*celulares*/
+@Media only screen and (min-width:588px) {
+    h1 {font-size: 4.3em;}
+    .item p {font-size: 2em;
+             margin-bottom: 25px;}
+}
+
+/*pantallas mayores a 992*/
+/*tablets*/
+@media only screen and (min-width: 992px) {
+    h1 {font-size: 2.5em;}
+    .item p{font-size: 1.8em;}
+    body {background: mediumpurple;}
+    .form {width: 50%;
+           margin: auto;}
+}
+
+/*pantallas mayores a 1280px*/
+/*computadoras*/
+@media only screen and (min-width: 1280px) {
+    h1 {font-size: 2.4em;}
+    .item p {font-size: 1.5em;}
+    .container {margin:auto;
+                width: 80%;}
+    .item {width: 50%;}
+}

@@ -1,0 +1,58 @@
+/*documento css*/
+
+* {margin-left: 40px;
+   margin-right: 40px;}
+
+h2 {font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;}
+
+h3 {font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20;
+    color: #808080;}
+
+h4 {font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;}
+
+.container {width: 100%;
+            display: flex;
+            padding: 0%;}
+
+.icono {width: 40px;
+        height: 40px;
+        margin-top: 23px;
+        margin-right: -2%;}
+
+.recom {margin-top: 35px;
+        margin-left: -2%;}
+
+.containervid {width: 100%;
+               display: flex;
+               padding: auto;}
+
+.video1 {margin-right: 0%;}
+
+.video2 {margin-left: 20px;
+         margin-right: 20px;}
+
+.video3 {margin-left: 0%;}
+
+.containerdescr {width: 100%;
+                 display: flex;
+                 padding: auto;
+                 margin-top: -10px;}
+
+.descr1 {margin-right: 0%}
+                
+.descr2 {margin-left: 35px;
+         margin-right: 0%;}
+
+.descr3 {margin-left: 55px;}
+
+
+        

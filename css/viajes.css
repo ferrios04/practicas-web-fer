@@ -1,0 +1,62 @@
+/*documento css*/   
+
+* {margin-left: 10px;
+   margin-right: 10px;}
+
+h1 {font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    color: white;}
+
+h3 {font-family: "Playwrite AU VIC", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: -40px;
+    color: crimson;}
+
+h2 {font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: crimson;}
+
+p {font-family: "Libre Baskerville", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 15px;
+   text-align: justify;}
+
+img {width: 620px;}
+
+.cabecera {text-align: center;
+           margin-top: -30px;
+           margin-bottom: 80px;
+           padding: 5px 0px 5px 0px;
+           background-color: black;}
+        
+.containerlondres {margin-bottom: 220px;}
+
+.londres {float: right;
+          margin-left: 30px;}
+
+.londresp {margin-top: -20px;
+           text-align: justify;}
+
+.osaka {width: 100%;
+        display: flex;}
+
+.osaka1 {margin-right: 0px;}
+
+.osaka2 {margin-left: 0px;}
+
+.containersko {margin-bottom: 320px;}
+
+.skopelos {float: left;
+           margin-right: 30px;}
+
+.skopelosp {margin: -20px;}

@@ -1,0 +1,50 @@
+/*documento css (spiderman's version)*/
+
+h1 { text-align: center;
+     padding: 10px 0px;
+     font-family: "Audiowide", sans-serif;
+     font-weight: 400;
+     font-style: normal; 
+     font-size: 60px;
+     background-color: #b11313;
+     text-transform: uppercase;
+     font-weight: 1000;
+     color: black; }
+
+body { background-color: #447bbe; }
+
+p { color: aliceblue; 
+    text-align: justify;
+    line-height: 18px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal; }
+
+.cuerpo { margin: auto;
+          width: 95%; }
+
+#frase { text-align: center;
+         color: #b11313;
+         font-weight: 750; 
+         font-family: "Audiowide", sans-serif;
+         font-weight: 400;
+         font-style: normal; 
+         font-size: 18px; }
+
+img { height: 300px;
+      border-radius: 2%;
+      margin: auto;}
+
+.pie { padding: 10px 30px;
+       font-family: "Audiowide", sans-serif;
+       font-weight: 400;
+       font-style: normal; 
+       background-color: #b11313;
+       text-transform: uppercase;
+       font-size: 30px;
+       color: black;  }
+
+
+        
+

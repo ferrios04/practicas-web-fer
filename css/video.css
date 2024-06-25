@@ -1,0 +1,48 @@
+/*documento css*/
+
+* {margin: 0px;
+   padding: 0%;}
+
+body {background-color: #2A4562;}
+
+h1 {font-family: "Bebas Neue", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 100px;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    color: snow;}
+
+h2 {font-family: "Bebas Neue", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 50px;
+    color: #B41A1A;}
+
+h3 {font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 0%;
+    color: #4f76a0;}
+
+#ola {background: #B41A1A;}
+
+.cabeza {text-align: center;
+        background-color: #8f0108;
+        margin-bottom: 20px; 
+        text-shadow: 0px;
+        text-shadow: 0px 0px 4px black;}
+
+.multimedia {margin-top: 20px auto 0px auto;
+             width: 100%;
+             text-align: center;
+             margin-bottom: 15px;
+             display: flex;}
+
+section.multimedia.div {width: 50%;}
+
+.multimedia video, .multimedia iframe {width: 100%;
+                                       height: 280px;}
+

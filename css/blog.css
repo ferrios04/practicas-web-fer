@@ -1,0 +1,76 @@
+/*documento css*/
+
+    /*#00502e #bf9b23 #fff7eb #006837*/
+
+body {background-color: #F6F0E4;
+      margin-left: 17px;
+      margin-right: 17px;}
+
+h1 {font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+    letter-spacing: -10px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: #ffc14e;}
+
+h2 {font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    margin-bottom: 0%;
+    color: #047458;}
+
+h3 {font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: -3%;
+    color: #F6F0E4;}
+
+p, ul {font-family: "Lora", serif;
+       font-optical-sizing: auto;
+       font-weight: 600;
+       font-style: normal;
+       font-size: 15px;
+       text-align: justify;}
+
+span {font-family: "Lora", serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 12px;
+      text-align: center;}
+
+.header {background-color: #1F5B4C; 
+         text-align: center;}
+
+.jkphoto {float: right;
+          width: 364px;
+          margin-left: 13px;}
+
+.album {float: left;
+        width: 320px;
+        margin-right: 35px;}
+
+.lista {align-content: center;}
+
+.spotify {width: 50px;}
+
+.apple {width: 50px;
+        margin-left: 0%;
+        margin-right: 0%;}
+
+.amazon {width: 55px;
+         margin-right: 5px;}
+
+.weverse {width: 50px;}
+
+.items {width: 70%;
+        padding: 0%;}
+
+.container {width: 40%;
+            display: flex;
+            padding-left: 320px;}
+        

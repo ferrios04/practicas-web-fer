@@ -1,0 +1,41 @@
+/*DOCUMENTO CSS*/
+
+* { margin: 0%;
+    padding: 0%; }
+
+div { box-sizing: border-box; }
+
+body { background-color: blanchedalmond; }
+
+/*centrar texto*/
+h1 { text-align: center; 
+     padding: 20px; 
+     background-color: forestgreen;
+     color: beige; }
+
+#cabecera { height: 100px; 
+            padding: 20px 0px;
+            background-color: black;}
+
+/*dar color al texto*/
+.tablas { margin: 15px; 
+          color: chocolate;} 
+
+#datos { color: crimson; }
+
+/*centrar elementos del bloque*/
+.tablas table { margin: auto; }
+
+.videos { width: 80%;
+          background-color: black; 
+          margin: auto;
+          display: flex;}
+/* "flex" crea una sección flexible como aqui con los videos */
+
+.insertar { width: 50%;
+            background-color: blueviolet; }
+
+.insertar video, .incrustar iframe { width: 100%; }
+
+.incrustar { width: 50%; 
+             background-color: blueviolet;}

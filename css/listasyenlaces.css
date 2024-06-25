@@ -1,0 +1,29 @@
+/*documento css*/
+
+body {background-color: snow;}
+
+h1 {font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    color: mediumblue;
+    margin-bottom: 0;
+    margin-top: 2%;}
+
+h2 {font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 0%;}
+
+p, ol, ul, dl {font-family: "Poppins", sans-serif;
+               font-weight: 400;
+               font-style: normal;
+               font-size: 14px;
+               text-align: justify;} 
+
+.img1 {float: right;
+       margin-left: 12px;}
+
+.img2 {float: left;
+       margin-right: 12px;}

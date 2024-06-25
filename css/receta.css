@@ -1,0 +1,78 @@
+/*documento css*/
+
+* {margin-left: 20px;
+   margin-right: 20px;}
+
+body {background-color: #fff2ed;}
+
+h1 {font-family: "Sansita", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 70px;
+    margin-bottom: 0px;
+    color: #981829;}
+
+h2 {font-family: "Sansita", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: -7px;
+    color: #981829;}
+
+h3 {font-family: "Playwrite US Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: -10px;
+    color: #701419;}
+
+p, li {font-family: "Montserrat", sans-serif;
+       font-optical-sizing: auto;
+       font-weight: 400;
+       font-style: normal;
+       font-size: 15px;
+       text-align: justify;
+       color: #2b1005;}
+
+img {width: 500px;}
+
+
+hr {border-style: dashed;
+    margin-top: -8px;
+    color: #F19692;}
+
+.cabecera {text-align: left;
+           margin-top: -15px;
+           margin-bottom: 60px;}
+
+.containeringr {margin-bottom: 60px;}
+        
+.imgingr {float: left;
+          margin-right: 50px;}
+
+.proc {text-align: center;}
+
+.img1 {width: 300px;
+       float: right;
+       margin-left: 20px;
+       margin-bottom: 10px; }
+
+.containerproc {margin-bottom: 60px;}
+
+.img2 {width: 300px;
+       float: left;
+       margin-right: 20px;}
+
+.containeracomp {text-align: center;
+                 margin-bottom: 60px;}
+
+.img3 {width: 700px;}
+
+.footer {font-family: "Montserrat", sans-serif;
+         font-optical-sizing: auto;
+         font-weight: 500;
+         font-style: normal;
+         font-size: 13px;
+         text-align: justify;
+         color: #2b1005;}
