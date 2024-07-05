@@ -1,0 +1,44 @@
+/*documento css*/
+
+* {margin: 0;
+   padding: 0; }
+
+body {background-color: #ffcceb;}
+
+header.cabecera {background-color: #ff1668db;}
+
+div.logo {color: white;
+          margin: auto;
+          font-size: 4em;
+          text-align: center;}
+
+nav.menu {}
+
+div.contenedor {display: flex;
+                width: 95%;
+                margin: auto;
+                position: relative;
+                top: 15px;}
+
+a.item {font-family: "Playwrite ES Deco", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        width: 20%;
+        text-align: center;
+        padding: 8px 0px;
+        border: 1px solid #ffcceb;
+        background: #ffdcf1;}
+    
+a.item:first-child {border-top-left-radius: 15px;
+                    border-bottom-left-radius: 15px;}
+
+a.item:last-child {border-top-right-radius: 15px;
+                   border-bottom-right-radius: 15px; 
+                   background-color: white;
+                   color: #ff1668db;}
+
+@media only screen and (min-width:1280px) {
+    div.contenedor {width: 50%;}
+}
